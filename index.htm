@@ -1,18 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-  <script>
-    'javascript.js';
-
-  </script>
+  <script
+    src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script async src="javascript.js"></script>
   <link rel="stylesheet" href="styles.css" />
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+    <script>
+      const getRandom = (min, max) => Math.floor(Math.random()*(max-min+1)+min);
+      
+      var elementList = document.getElementsByClassName('thomsonElectron');
+      Array.from(elementList).forEach(function(item){
+        console.log(item)
+      })
+      console.log(elementList)
+      
+      
+    </script>
     <title>Bill's Atomic Theory Timeline</title>
   </head>
+
   <body>
-    <div class="box"></div>
-    <div class="box" style="left: 300px;"></div>
+    <div class="ui inverted vertical masthead center aligned segment">
+      <h1 class = "ui header">Bill's Atomic Theory Timeline!</h1>
+    </div>
+
+
+      <div class="ui vertical stripe segment">
+        
+        <div class="ui middle aligned stackable grid container">
+          <div class="row">
+            <div class="eight wide column">
+              <h2>John Dalton</h2>
+                <p>THIS IS PLACEHOLDER INFORMATION, DALTON HAD 
+                  A VERY SIMPLE METHODFOR HIS EXPLANATION FOR THE ATOMIC MODEL</p>
+                  
+            </div>
+            <div class="six wide right floated column" style="height: 500px;">
+                <div class="daltonDiagram" style="left: 0px;">
+                  <div style="text-align: center;">
+                    <p style="top: 50%;">Au</p>
+                  </div>
+                  
+                </div>
+                <div class="daltonDiagram" style="left: 200px; background-color: gray">
+                  <div style="text-align: center;">
+                    <p style="top: 50%;">Ag</p>
+                  </div>
+                  
+                </div>
+                <div class="daltonDiagram" style="left: 400px; background-color:chocolate">
+                  <div style="text-align: center;">
+                    <p style="top: 50%;">Cu</p>
+                  </div>
+                  
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="ui vertical stripe segment">
+        
+        <div class="ui middle aligned stackable grid container">
+          <div class="row">
+            <div class="eight wide column">
+              <h2>J.J Thomson</h2>
+                <p>THIS IS PLACEHOLDER INFORMATION, DALTON HAD 
+                  A VERY SIMPLE METHODFOR HIS EXPLANATION FOR THE ATOMIC MODEL</p>
+                  
+            </div>
+            <div class="six wide right floated column" style="height: 500px;">
+                <div class="thomsonDiagram" style="left: 0px; top: 100px">
+                  <img src="/images/thomson diagram.png" style="width: 300px;">
+                </div>
+                
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui vertical stripe segment">
+        
+        <div class="ui middle aligned stackable grid container">
+          <div class="row">
+            <div class="eight wide column">
+              <h2>Robert Millikan</h2>
+                <p>THIS IS PLACEHOLDER INFORMATION, DALTON HAD 
+                  A VERY SIMPLE METHODFOR HIS EXPLANATION FOR THE ATOMIC MODEL</p>
+                  
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <h2>Ernest Rutherford</h2>
+      <h2>Niels Bohr</h2>
+      <h2>Louis De Broglie</h2> 
+      <h2>Ernest Schrodinger</h2>
+      <h2>Albert Einstein</h2>
+      <h2>Max Planck</h2>
+      
+      
+    
+
+    
+
   </body>
 </html>
