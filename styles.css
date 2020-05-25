@@ -233,6 +233,8 @@
 }
 #shrodinger-Porbital {
   position: absolute;
+  height: 500px;
+  width: 500px;
   animation: fade2 10s infinite ease-in-out;
   
 }
