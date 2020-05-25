@@ -213,6 +213,42 @@
   animation: spin-right 40s linear reverse infinite;
 }
 
+#shrodinger-Container {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  
+}
+
+#shrodinger-Sorbital {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
+  
+  background-image: radial-gradient(circle, white 25%, blue 40%, white 50%);
+  animation: fade1 10s infinite ease-in-out;
+}
+#shrodinger-Porbital {
+  position: absolute;
+  animation: fade2 10s infinite ease-in-out;
+  
+}
+
+@keyframes fade1 {
+  0% {opacity: 70%;}
+  50% {opacity: 0%;}
+  100%{opacity: 70%;}
+}
+
+@keyframes fade2 {
+  0% {opacity: 0%;}
+  50% {opacity: 200%;}
+  100%{opacity: 0%;}
+}
+
 
 @keyframes oscillate {
   0% { transform: translate(1px, 1px) rotate(0deg); }
